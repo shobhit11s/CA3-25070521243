@@ -1,0 +1,14 @@
+{
+  "name": "talentloop-workspace",
+  "version": "1.0.0",
+  "description": "TalentLoop Freelance Marketplace",
+  "scripts": {
+    "dev": "npm --prefix talentloop/server run dev",
+    "start": "npm --prefix talentloop/server start",
+    "server": "npm --prefix talentloop/server run dev",
+    "client": "npm --prefix talentloop/client run dev",
+    "seed": "npm --prefix talentloop/server run seed",
+    "test": "node talentloop/server/test_e2e.js",
+    "build:client": "npm --prefix talentloop/client run build"
+  }
+}
